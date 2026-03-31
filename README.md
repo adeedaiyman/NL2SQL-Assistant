@@ -36,5 +36,5 @@ Upload CSV files, ask questions in plain English, and get SQL queries, results, 
 ## Steps to create virtual environment
 mkdir nl2sql-app
 cd nl2sql-app
-mkdir nl2sql-app
-cd nl2sql-app
+python3 -m venv venv
+source venv/bin/activate
